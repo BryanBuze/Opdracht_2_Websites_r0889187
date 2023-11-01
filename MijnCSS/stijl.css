@@ -1,0 +1,27 @@
+body{
+    background-color: #f2f3f5;
+    font-family: 'Varela Round';
+}
+nav{
+    background-color: white;
+   
+    color: gray;
+    margin-top: 20px;
+}
+nav li{
+  
+    width: 80px;
+}
+nav li a:hover:not(.active){
+    
+    color: black;
+}
+.active {
+    
+    color:#0563bb;
+    font-weight: bold;
+}
+nav li a{
+    display: block;
+    text-align: center;
+}
