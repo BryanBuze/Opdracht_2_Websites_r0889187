@@ -1,62 +1,186 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>Home</title>
-    <link rel="stylesheet" href="MijnCSS/stijl.css">
-    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
-    <link rel="icon" href="img/computer.png">
+    <link rel="stylesheet" href="MijnCSS/stijl.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela Round"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/computer.png" />
+  </head>
+  <body>
+    <!--NAV-->
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary rounded-3"
+        aria-label="Twelfth navbar example"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bryan</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample10"
+            aria-controls="navbarsExample10"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-</head>
-<body>
-<!--NAV-->
-  <div class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-3" aria-label="Twelfth navbar example">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Bryan</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="true" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="navbar-collapse justify-content-md-center collapse show" id="navbarsExample10">
-          <ul class="navbar-nav ">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#index">Home</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link " href="cv.html">CV</a>
+          <div
+            class="navbar-collapse justify-content-md-center collapse show"
+            id="navbarsExample10"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#index"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="hobbys.html">Hobby's</a>
+                <a class="nav-link" href="cv.html">CV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="contact.html">Contact</a>
+                <a class="nav-link" href="hobbys.html">Hobby's</a>
               </li>
-          </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--NAV -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-8"><hr /></div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div
+        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+      >
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">Back-end developer</h1>
+          <p class="lead">
+            Zoekt u naar uw nieuwste werknemer met kennis over C#, html of sql?
+            neem dan snel contact op!
+          </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+            >
+              <a href="contact.html">Contact</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="img/code.png" alt="" width="620" />
         </div>
       </div>
-    </nav>
-  </div>
-  <!--NAV -->
+    </div>
+    <!--Jumbotron-->
 
-  <!--FOOTER-->
-  <div class="container">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><img src="img/5296514_bird_tweet_twitter_twitter logo_icon.png" alt="twitter"></a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><img src="img/5296499_fb_facebook_facebook logo_icon.png" alt="facebook"></a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><img src="img/5296765_camera_instagram_instagram logo_icon.png" alt="instagram"></a></li>
-      </ul>
-      <p class="text-center text-body-secondary">© Buze Bryan</p>
-    </footer>
-  </div>
+    <!--CARDS-->
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-8"><hr /></div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <h1>Explore</h1>
+        <div class="col-1"></div>
+        <div class="col-md-3">
+          <div class="card my-2" style="width: 18rem">
+            <a href="cv.html"><img src="img/resume.png" class="card-img-top img-fluid" alt="" /></a>
+            <div class="card-body">
+              <p>
+                  Hier kan u al mijn skills en werkervaring terugvinden.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card my-2" style="width: 18rem ">
+            <a href="hobbys.html"><img src="img/hobby.png" class="card-img-top img-fluid" alt="" /></a>
+            <div class="card-body">
+              <p>
+                  Hier zal u mijn hobbies en interresses terugvinden.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card my-2" style="width: 18rem">
+            <a href="contact.html"><img src="img/contact.png" class="card-img-top img-fluid" alt="" /></a>
+
+            <div class="card-body">
+              <p>
+                  Geinterreseerd? contacteer ons hier!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+
+    <!--CARDS-->
+    <!--FOOTER-->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary"
+              ><img
+                src="img/5296514_bird_tweet_twitter_twitter logo_icon.png"
+                alt="twitter"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary"
+              ><img
+                src="img/5296499_fb_facebook_facebook logo_icon.png"
+                alt="facebook"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary"
+              ><img
+                src="img/5296765_camera_instagram_instagram logo_icon.png"
+                alt="instagram"
+            /></a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© Buze Bryan</p>
+      </footer>
+    </div>
+
     <!--FOOTER-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

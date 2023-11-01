@@ -45,3 +45,17 @@ nav li a{
 p{
     text-align: center;
 }
+textarea {
+
+    width: 100%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: white;
+}
+button{
+    background-color: #0563bb;
+}
